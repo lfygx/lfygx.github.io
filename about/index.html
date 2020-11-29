@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="我的C#之旅, 小猪的博客">
+    <meta name="keywords" content="关于, 小猪的博客">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>我的C#之旅 | 小猪的博客</title>
+    <title>关于 | 小猪的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">我的C#之旅</h1>
+                    <h1 class="description center-align post-title">about</h1>
                 </div>
             </div>
         </div>
@@ -430,13 +430,9 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/c/">
-                                <span class="chip bg-color">c#</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -448,21 +444,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-11-19
+                    2020-11-29
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-11-19
+                    2020-11-29
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    572
+                    0
                 </div>
                 
 
@@ -479,97 +475,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="我的C-之旅"><a href="#我的C-之旅" class="headerlink" title="我的C#之旅"></a>我的C#之旅</h1><h2 id="1-开始"><a href="#1-开始" class="headerlink" title="1.开始"></a>1.开始</h2><h4 id="代码折叠"><a href="#代码折叠" class="headerlink" title="代码折叠"></a>代码折叠</h4><p>#region  这里写明这段被折叠的代码的用途</p>
-<p>{ </p>
-<p>}</p>
-<p>#endregion</p>
-<h4 id="特殊的变量赋值"><a href="#特殊的变量赋值" class="headerlink" title="特殊的变量赋值"></a>特殊的变量赋值</h4><p>float 型变量赋值后面需要加上f。</p>
-<p>decimal型变量的赋值后面需要加上m。</p>
-<h4 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h4><h5 id="隐式转换"><a href="#隐式转换" class="headerlink" title="隐式转换"></a>隐式转换</h5><p>不需要代码，赋值过程当中自动完成</p>
-<h5 id="显示转换"><a href="#显示转换" class="headerlink" title="显示转换"></a>显示转换</h5><p>需要代码完成</p>
-<p>1.使用covert命令进行显示转换</p>
-<p>eg: double dox;  </p>
-<p>​      string strX=”18.99”;</p>
-<p>​      dox=convert.ToDouble(strX);</p>
-<p>2.使用parse进行转换</p>
-<p>eg: double dox;  </p>
-<p>​      string strX=”18.99”;</p>
-<p>​      dox=double.parse(strX);</p>
-<h5 id="枚举类型"><a href="#枚举类型" class="headerlink" title="枚举类型"></a>枚举类型</h5><p>储存有限个数的常量</p>
-<p>eg:  </p>
-<p>class program</p>
-<p>{</p>
-<p>staic void main{string [] args}</p>
-<p>​    {</p>
-<p>Console.Writline（（int) sex.男）</p>
-<p>Console.Readkey();</p>
-<p>​    }</p>
-<p>enum  sex</p>
-<p>​     {</p>
-<p>男=1，女=0</p>
-<p>​     }</p>
-<p>}</p>
-<p>枚举类型要与使用他的类在同一级，默认为int，只有int,uint,byte,sbyte,long,unlong,short,unshort这八种类型</p>
-<h5 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h5><p>struct~~~{           </p>
-<p>​                  }</p>
-<p>public 定义在整个类里面都可以使用</p>
-<p>使用某一个结构体时候，先申明变量再给变量里面的不可变量赋值，然后在引用结构</p>
-<h5 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h5><p>类型   [ ]名字=new  类型  [长度固定]；</p>
-<p>类型   [ ]名字=new 类型   [   ];{“ “,” “,” “,” “}长度不限，往里面赋值即可</p>
-<h5 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h5><p>string   —-&gt; eg string   str =”aBcDeFg”;</p>
-<p>转换大写</p>
-<p>str=str.ToUpper();     —-&gt;ABCDEFG</p>
-<p>转换小写</p>
-<p>str=str.ToLower();    ——abcdefg</p>
-<p>去掉空格</p>
-<p>str=str.rim();</p>
-<p>在左侧或者右侧添加空格或字符串</p>
-<ol>
-<li><p>str=str.Padleft();            </p>
-<table>
-<thead>
-<tr>
-<th>(3,’~’)</th>
-<th>~~~ aBcDeFg</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>(3,’#’)</td>
-<td>###aBcDeFg</td>
-</tr>
-</tbody></table>
-<p>2.str=str.PadRight();</p>
-<p>删除字符</p>
-<p>str=str.Remove()  括号怕里面需要填写字符的开始位置和长度</p>
-<p>替换字符</p>
-<p>str=str.RePlace(“c”,”:x”);    ——-&gt;aBxDeFg  把c替换为了x</p>
-<p>字符串替换cuan</p>
-<p>str=str.substring();    从指定位置开始截取长度为多少的字符串</p>
-<p>获取指定字符串开始位置的索引</p>
-<p>str.IndexOf(“”);</p>
-<p>判断字符串是否相等</p>
-<p>bool  bo;</p>
-<p>bo=str.Equals(“”);   返回值类型为true或者false（bool类型）</p>
-<p>判断是否存在</p>
-<p>bo=str.Contains(“ “);  返回值类型为true或者false  </p>
-<p> 判断是否以指定支付穿开始或者结束</p>
-<p>bo=str.starsWith(“ “);</p>
-<p>bo=str.Endwith(“ “);返回值类型为true或者false </p>
-<h5 id="关闭窗口、捕捉异常"><a href="#关闭窗口、捕捉异常" class="headerlink" title="关闭窗口、捕捉异常"></a>关闭窗口、捕捉异常</h5><p>this.close();关闭当前界面的窗口</p>
-<p>捕捉异常</p>
-<p>try{</p>
-<p>异常代码</p>
-<p>}</p>
-<p>catch( Exception ex)</p>
-<p>{</p>
-<p>MessageBox.show(“ex.Message”);   —-&gt;提示用户错误类型</p>
-<p>}</p>
-<p>finally()可有可无不管catch结果如何都会哦执行的操作</p>
-<p>{</p>
-<p>}</p>
-</li>
-</ol>
-
+                
             </div>
             <hr/>
 
@@ -594,7 +500,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2020/11/19/%E6%88%91%E7%9A%84C-%E4%B9%8B%E6%97%85/">http://example.com/2020/11/19/%E6%88%91%E7%9A%84C-%E4%B9%8B%E6%97%85/</a>
+                    <a href="http://example.com/about/index.html">http://example.com/about/index.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -631,11 +537,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/c/">
-                                    <span class="chip bg-color">c#</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -804,7 +706,7 @@
         repo: '',
         owner: '',
         admin: null,
-        id: '2020-11-19T17-18-11',
+        id: '2020-11-29T10-55-04',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -828,7 +730,7 @@
 <script src="/libs/gitment/gitment.js"></script>
 <script>
 var gitment = new Gitment({
-    id: 'Thu Nov 19 2020 17:18:11 GMT+0800',
+    id: 'Sun Nov 29 2020 10:55:04 GMT+0800',
     owner: '',
     repo: '',
     oauth: {
@@ -853,9 +755,9 @@ gitment.render('gitment-content');
 
 <script type="text/javascript">
     disqus_config = function () {
-        this.page.url = 'http://example.com/2020/11/19/%E6%88%91%E7%9A%84C-%E4%B9%8B%E6%97%85/';
-        this.page.identifier = '/2020/11/19/%E6%88%91%E7%9A%84C-%E4%B9%8B%E6%97%85/';
-        this.page.title = '我的C#之旅';
+        this.page.url = 'http://example.com/about/index.html';
+        this.page.identifier = '/about/index.html';
+        this.page.title = 'about';
     };
     let disqus_shortname = '';
 
@@ -905,62 +807,18 @@ gitment.render('gitment-content');
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/11/29/python%E5%AD%A6%E4%B9%A0/">
+                <a href="/about/index.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="python学习">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
                         
-                        <span class="card-title">python学习</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-11-29
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            L  F
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/python/">
-                        <span class="chip bg-color">python</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/11/19/%E6%88%91%E7%9A%84C-%E4%B9%8B%E6%97%85/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="我的C#之旅">
-                        
-                        <span class="card-title">我的C#之旅</span>
+                        <span class="card-title">about</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -971,7 +829,7 @@ gitment.render('gitment-content');
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-19
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-29
                             </span>
                         <span class="publish-author">
                             
@@ -983,13 +841,43 @@ gitment.render('gitment-content');
                 </div>
 
                 
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/c/">
-                        <span class="chip bg-color">c#</span>
-                    </a>
-                    
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
+            </div>
+            <div class="card">
+                <a href="/about/index.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
+                        
+                        <span class="card-title">about</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-29
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            L  F
+                            
+                        </span>
+                    </div>
                 </div>
+
                 
             </div>
         </div>
